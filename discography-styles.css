@@ -1,0 +1,20 @@
+main{
+    display: flex;
+
+}
+.discography{
+    width: 40%;
+}
+.img-discography{
+width: 50rem;
+}
+
+a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(137, 93, 59);
+}
+h2{
+    padding-left: 40px;
+    font-size: 2em;
+}

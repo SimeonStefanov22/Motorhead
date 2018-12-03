@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=New+Rocker');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+
+    margin: 2rem;
+    font-family: 'Lato', sans-serif;
+    background: rgb(213, 206, 198);
+
+}
+
+header{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+
+
+}
+h1{
+
+    background: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'New Rocker', cursive;;
+    padding: 1rem;
+    margin-bottom: 0;
+
+
+}
+nav{
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(137, 93, 59);
+
+
+
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+ li{
+     list-style: none;
+     width: 10rem;
+     text-align: center;
+     border: 0px solid rgb(255, 255, 255);
+     border-radius: 3%;
+     background: rgb(0, 0, 0);
+     padding: 0.5em;
+     font-size: 1.5em;
+     box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.6);
+
+}
+ li:nth-of-type(2){
+     border: none;
+     background: none;
+     padding: 0;
+    box-shadow: none;
+ }
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+
+
+}
+
+nav img{
+    width: 3.5rem;
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.6)
+}
+
+.history-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    text-align: center;
+    letter-spacing: 3px;
+    color: rgb(137, 93, 59);
+    font-size: 2em;
+}
+.created,.musicians, .history{
+    padding: 0.8em;
+
+}
+.created{
+    width: 30%;
+    border: 1px solid rgb(0, 0, 0);
+}
+.musicians{
+    width: 30%;
+    border: 1px solid rgb(0, 0, 0);
+}
+.history{
+    width: 30%;
+    border: 1px solid rgb(0, 0, 0);
+}
+h3{
+    letter-spacing: 1px;
+    color: rgb(137, 93, 59);
+}
+p{
+    line-height: 1.5em;
+}
+
+
+
+
+
