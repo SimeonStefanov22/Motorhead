@@ -3,6 +3,7 @@
 body{
 
     margin: 2rem;
+    margin-top: 0;
     font-family: 'Lato', sans-serif;
     background: rgb(213, 206, 198);
 
@@ -20,7 +21,7 @@ h1{
     text-align: center;
     font-family: 'New Rocker', cursive;;
     padding: 1rem;
-    margin-bottom: 0;
+    margin: 0;
 
 
 }
@@ -39,14 +40,8 @@ nav > ul{
 }
  li{
      list-style: none;
-     width: 10rem;
-     text-align: center;
-     border: 0px solid rgb(255, 255, 255);
-     border-radius: 3%;
-     background: rgb(0, 0, 0);
-     padding: 0.5em;
-     font-size: 1.5em;
-     box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.6);
+
+
 
 }
  li:nth-of-type(2){
@@ -57,12 +52,21 @@ nav > ul{
  }
 
 
-a{
+nav ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
-
+    width: 10rem;
+    text-align: center;
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 3%;
+    background: rgb(0, 0, 0);
+    padding: 0.5em;
+    font-size: 1.5em;
+    box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.6);
 }
 
 nav img{
@@ -84,19 +88,16 @@ h2{
 }
 .created,.musicians, .history{
     padding: 0.8em;
+    width: 30%;
+    border: 1px solid rgb(0, 0, 0);
 
 }
-.created{
-    width: 30%;
-    border: 1px solid rgb(0, 0, 0);
+.created, .musicians{
+    width: 20%;
 }
-.musicians{
-    width: 30%;
-    border: 1px solid rgb(0, 0, 0);
-}
+
 .history{
-    width: 30%;
-    border: 1px solid rgb(0, 0, 0);
+    width: 50%;
 }
 h3{
     letter-spacing: 1px;
@@ -105,6 +106,31 @@ h3{
 p{
     line-height: 1.5em;
 }
+
+footer{
+    background: rgb(43, 43, 43);
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.icons-footer a i{
+    font-size: 1.5em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8%;
+    padding: 0.2em;
+    margin: 0.2em;
+    background: rgb(137, 93, 59);
+    color: rgb(0, 0, 0);
+}
+.author-site{
+    font-style: italic;
+    font-size: 1.1em;
+}
+
 
 
 
