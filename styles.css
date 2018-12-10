@@ -37,7 +37,7 @@ nav {
         background: black;
         padding: 0.5em;
         font-size: 1.5em;
-        box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.6); }
+        box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.6); }
 
 li:nth-of-type(2) {
   border: none;
@@ -48,7 +48,7 @@ li:nth-of-type(2) {
 nav img {
   width: 3.5rem;
   border-radius: 50%;
-  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.6); }
+  box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.6); }
 
 .history-text {
   display: flex;
@@ -138,7 +138,6 @@ footer {
     display: none; }
 
   nav ul li a {
-    width: 6rem; }
-}
+    width: 6rem; } }
 
 /*# sourceMappingURL=styles.css.map */
