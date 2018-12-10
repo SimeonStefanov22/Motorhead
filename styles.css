@@ -1,190 +1,144 @@
-@import url('https://fonts.googleapis.com/css?family=New+Rocker');
-@import url('https://fonts.googleapis.com/css?family=Lato');
-body{
+@import url("https://fonts.googleapis.com/css?family=New+Rocker");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+body {
+  margin: 0 0.5rem 0 0.5rem;
+  font-family: 'Lato', sans-serif;
+  background: #d5cec6;
+  width: 100%; }
+  body header {
+    color: white;
+    font-size: 2.5rem; }
+    body header h1 {
+      background: black;
+      text-align: center;
+      font-family: 'New Rocker', cursive;
+      padding: 1rem;
+      margin: 0; }
 
-    margin: 2rem;
-    margin-top: 0;
-    font-family: 'Lato', sans-serif;
-    background: rgb(213, 206, 198);
-
-}
-
-header{
-    color: rgb(255, 255, 255);
-    font-size: 2.5rem;
-
-
-}
-h1{
-
-    background: rgb(0, 0, 0);
-    text-align: center;
-    font-family: 'New Rocker', cursive;;
-    padding: 1rem;
-    margin: 0;
-
-
-}
-nav{
-    border: 2px solid rgb(0, 0, 0);
-    background: rgb(137, 93, 59);
-
-
-
-}
-nav > ul{
+nav {
+  border: 2px solid black;
+  background: #895d3b; }
+  nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-}
- li{
-     list-style: none;
+    flex-wrap: wrap; }
+    nav ul li {
+      list-style: none; }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10rem;
+        border: 0 solid white;
+        border-radius: 3%;
+        background: black;
+        padding: 0.5em;
+        font-size: 1.5em;
+        box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.6); }
 
+li:nth-of-type(2) {
+  border: none;
+  background: none;
+  padding: 0;
+  box-shadow: none; }
 
+nav img {
+  width: 3.5rem;
+  border-radius: 50%;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.6); }
 
-}
- li:nth-of-type(2){
-     border: none;
-     background: none;
-     padding: 0;
-    box-shadow: none;
- }
+.history-text {
+  display: flex;
+  justify-content: space-between; }
 
+h2 {
+  text-align: center;
+  letter-spacing: 3px;
+  /*color: rgb(137, 93, 59);*/
+  color: #4b2013;
+  font-size: 2em;
+  text-shadow: 1px 1px #4b2013; }
 
-nav ul li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 10rem;
-    border: 0px solid rgb(255, 255, 255);
-    border-radius: 3%;
-    background: rgb(0, 0, 0);
-    padding: 0.5em;
-    font-size: 1.5em;
-    box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.6);
-}
-
-nav img{
-    width: 3.5rem;
-    border-radius: 50%;
-    box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.6)
-}
-
-.history-text{
-    display: flex;
-    justify-content: space-between;
-}
-
-h2{
-    text-align: center;
-    letter-spacing: 3px;
-    color: rgb(137, 93, 59);
-    font-size: 2em;
-}
-.created,.musicians, .history{
-    padding: 0.8em;
-    width: 30%;
-    border: 1px solid rgb(0, 0, 0);
-
-}
-.created, .musicians{
-    width: 20%;
-}
-
-.history{
-    width: 50%;
-}
-h3{
+.created, .musicians, .history {
+  padding: 0.8em;
+  width: 30%;
+  border: 1px solid black; }
+  .created h3, .musicians h3, .history h3 {
     letter-spacing: 1px;
-    color: rgb(137, 93, 59);
-}
-p{
-    line-height: 1.5em;
-}
+    /*color: rgb(137, 93, 59);*/
+    color: #4b2013; }
+  .created p, .musicians p, .history p {
+    line-height: 1.5em; }
 
-footer{
-    background: rgb(43, 43, 43);
-    width: 100%;
-    height: 7rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.created, .musicians {
+  width: 20%; }
 
+.history {
+  width: 50%; }
 
-}
-.icons-footer a{
-    text-align: center;
-}
-.icons-footer a i{
-    font-size: 1.5em;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 8%;
-    padding: 0.2em;
-    margin: 0.2em;
-    background: rgb(137, 93, 59);
-    color: rgb(0, 0, 0);
-    width: 1em;
-}
-.author-site{
+footer {
+  background: #2b2b2b;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  footer .icons-footer a {
+    text-align: center; }
+    footer .icons-footer a .icons-footer a i {
+      font-size: 1.5em;
+      border: 1px solid black;
+      border-radius: 8%;
+      padding: 0.2em;
+      margin: 0.2em 0.8em 0.2em 0.8em;
+      background: #895d3b;
+      color: black;
+      width: 1em; }
+  footer .author-site {
     font-style: italic;
-    font-size: 1.1em;
-}
+    font-size: 1.1em; }
 
 @media only screen and (max-width: 480px) {
+  body {
+    font-size: 1.3rem; }
 
-    body{
-        font-size: 1rem;
-        margin: 0;
-    }
+  header, nav {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
 
-    header, nav{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+  h1 {
+    font-size: 1.4rem;
+    width: 100%; }
 
+  h2 {
+    font-size: 1rem; }
 
-    h1{
-        font-size: 1.4rem;
-        width: 100%;
-    }
-    h2{
-        font-size: 1rem;
-    }
+  .history-text {
+    display: flex;
+    flex-direction: column; }
 
-    .history-text{
-        display: flex;
-        flex-direction: column;
-    }
-    .created, .history, .musicians{
-        width: 100%;
-    }
-    nav ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 0;
-    }
-    nav ul li{
-        margin: 0.5em 0 0.5em 0;
-        font-size: 0.5em;
-    }
-    nav ul li:nth-child(2){
-        display: none;
+  .created, .history, .musicians {
+    width: 100%; }
 
-    }
-    nav ul li a{
-        width: 6rem;
-    }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0; }
 
+  nav ul li {
+    margin: 0.5em 0 0.5em 0;
+    font-size: 0.5em; }
+
+  nav ul li:nth-child(2) {
+    display: none; }
+
+  nav ul li a {
+    width: 6rem; }
 }
 
-
-
-
-
-
+/*# sourceMappingURL=styles.css.map */
