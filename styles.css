@@ -3,15 +3,15 @@
 body {
   margin: 0 0.5rem 0 0.5rem;
   font-family: 'Lato', sans-serif;
-  background: #d5cec6;
-  width: 100%; }
+  background: #d5cec6; }
   body header {
     color: white;
+    color: red;
     font-size: 2.5rem; }
     body header h1 {
       background: black;
       text-align: center;
-      font-family: 'New Rocker', cursive;
+      font-family: "New Rocker", cursive;
       padding: 1rem;
       margin: 0; }
 
@@ -28,6 +28,7 @@ nav {
       nav ul li a {
         text-decoration: none;
         color: white;
+        color: red;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -37,18 +38,24 @@ nav {
         background: black;
         padding: 0.5em;
         font-size: 1.5em;
-        box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.6); }
+        box-shadow: 0 0 2rem 0 rgba(128, 128, 128, 0.6); }
+
+li:first-of-type {
+  position: relative;
+  right: 2.5em; }
 
 li:nth-of-type(2) {
   border: none;
   background: none;
   padding: 0;
-  box-shadow: none; }
+  position: relative;
+  right: 2.5em; }
 
 nav img {
   width: 3.5rem;
   border-radius: 50%;
-  box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.6); }
+  border: 3px solid black;
+  box-shadow: 0 0 2rem 0 red; }
 
 .history-text {
   display: flex;
@@ -57,27 +64,48 @@ nav img {
 h2 {
   text-align: center;
   letter-spacing: 3px;
-  /*color: rgb(137, 93, 59);*/
   color: #4b2013;
-  font-size: 2em;
-  text-shadow: 1px 1px #4b2013; }
+  font-size: 2.2em;
+  text-shadow: 1px 1px #4b2013;
+  text-shadow: 1px 1px red;
+  font-family: "New Rocker", cursive; }
 
-.created, .musicians, .history {
-  padding: 0.8em;
-  width: 30%;
-  border: 1px solid black; }
-  .created h3, .musicians h3, .history h3 {
-    letter-spacing: 1px;
-    /*color: rgb(137, 93, 59);*/
-    color: #4b2013; }
-  .created p, .musicians p, .history p {
-    line-height: 1.5em; }
+.history-text {
+  display: flex;
+  flex-direction: column; }
+
+.created-musicians {
+  display: flex;
+  justify-content: space-evenly; }
+  .created-musicians img {
+    margin: 4em 4em 0 4em; }
 
 .created, .musicians {
-  width: 20%; }
+  padding: 0.8em;
+  width: 30%; }
+  .created h3, .musicians h3 {
+    letter-spacing: 1px;
+    font-size: 1.6em;
+    font-weight: 900;
+    color: #4b2013;
+    text-shadow: 1px 1px red;
+    font-family: "New Rocker", cursive; }
+  .created p, .musicians p {
+    line-height: 1.5em; }
 
 .history {
-  width: 50%; }
+  width: 80%;
+  margin: 0 auto 0.5em auto;
+  text-align: center; }
+  .history h3 {
+    letter-spacing: 1px;
+    font-size: 2em;
+    color: #4b2013;
+    text-shadow: 1px 1px red;
+    font-family: "New Rocker", cursive;
+    margin-top: 0; }
+  .history p {
+    line-height: 1.5em; }
 
 footer {
   background: #2b2b2b;
@@ -88,7 +116,7 @@ footer {
   align-items: center; }
   footer .icons-footer a {
     text-align: center; }
-    footer .icons-footer a .icons-footer a i {
+    footer .icons-footer a i {
       font-size: 1.5em;
       border: 1px solid black;
       border-radius: 8%;
