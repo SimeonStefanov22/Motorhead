@@ -136,18 +136,15 @@ footer {
     justify-content: center; }
 
   h1 {
-    font-size: 1.4rem;
+    font-size: 3rem;
     width: 100%; }
 
   h2 {
-    font-size: 1rem; }
+    font-size: 2rem; }
 
   .history-text {
     display: flex;
     flex-direction: column; }
-
-  .created, .history, .musicians {
-    width: 100%; }
 
   nav ul {
     display: flex;
@@ -163,6 +160,27 @@ footer {
     display: none; }
 
   nav ul li a {
-    width: 6rem; } }
+    width: 6rem; }
+
+  .created-musicians {
+    display: flex;
+    flex-direction: column; }
+    .created-musicians img {
+      width: 336px;
+      height: 252px;
+      padding: 0;
+      margin: 0; }
+
+  .created, .picture, .musicians, .history {
+    width: 100%;
+    text-align: center; }
+    .created h3, .picture h3, .musicians h3, .history h3 {
+      text-align: center; }
+    .created p, .picture p, .musicians p, .history p {
+      text-align: center; }
+
+  footer {
+    height: 14rem;
+    font-size: 1em; } }
 
 /*# sourceMappingURL=styles.css.map */
