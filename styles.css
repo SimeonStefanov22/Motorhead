@@ -53,9 +53,7 @@ li:nth-of-type(2) {
 
 nav img {
   width: 3.5rem;
-  border-radius: 50%;
-  border: 3px solid black;
-  box-shadow: 0 0 2rem 0 red; }
+  border-radius: 50%; }
 
 .history-text {
   display: flex;
@@ -88,7 +86,6 @@ h2 {
     font-size: 1.6em;
     font-weight: 900;
     color: #4b2013;
-    text-shadow: 1px 1px red;
     font-family: "New Rocker", cursive; }
   .created p, .musicians p {
     line-height: 1.5em; }
