@@ -186,5 +186,73 @@ footer {
   footer {
     height: 14rem;
     font-size: 1em; } }
+@media only screen and (max-width: 640px) {
+  body {
+    font-size: 1.3rem; }
+
+  header, nav {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+
+  h1 {
+    font-size: 3rem;
+    width: 100%; }
+
+  h2 {
+    font-size: 2rem; }
+
+  .history-text {
+    display: flex;
+    flex-direction: column; }
+
+  nav ul {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column; }
+
+  nav ul li {
+    margin: 0.5em 0 0.5em 0;
+    font-size: 0.5em; }
+
+  nav ul li:first-of-type {
+    position: relative;
+    left: 0.2em; }
+
+  nav ul li:nth-child(2) {
+    position: relative;
+    left: 3em; }
+
+  nav ul li a {
+    width: 6rem; }
+
+  .created-musicians {
+    display: flex;
+    flex-direction: column; }
+    .created-musicians img {
+      width: 336px;
+      height: 252px;
+      padding: 0;
+      margin: 0; }
+
+  .created, .picture, .musicians, .history {
+    width: 100%;
+    text-align: center; }
+    .created h3, .picture h3, .musicians h3, .history h3 {
+      text-align: center; }
+    .created p, .picture p, .musicians p, .history p {
+      text-align: center; }
+
+  footer {
+    height: 14rem;
+    font-size: 1em; }
+
+  nav ul li a {
+    width: 15em; }
+
+  nav ul li img {
+    width: 10em;
+    position: relative;
+    left: 4em; } }
 
 /*# sourceMappingURL=styles.css.map */
