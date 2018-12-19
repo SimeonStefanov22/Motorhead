@@ -83,7 +83,7 @@ footer {
   font-style: italic;
   font-size: 1.2em; }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   h2 {
     font-size: 0.7em; }
 
