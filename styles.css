@@ -55,10 +55,6 @@ nav img {
   width: 3.5rem;
   border-radius: 50%; }
 
-.history-text {
-  display: flex;
-  justify-content: space-between; }
-
 h2 {
   text-align: center;
   letter-spacing: 3px;
@@ -70,25 +66,29 @@ h2 {
 
 .history-text {
   display: flex;
+  justify-content: space-between;
   flex-direction: column; }
 
 .created-musicians {
   display: flex;
   justify-content: space-evenly; }
-  .created-musicians img {
-    margin: 4em 4em 0 4em; }
+
+.created-musicians img {
+  margin: 4em 4em 0 4em; }
 
 .created, .musicians {
   padding: 0.8em;
   width: 30%; }
-  .created h3, .musicians h3 {
-    letter-spacing: 1px;
-    font-size: 1.6em;
-    font-weight: 900;
-    color: #4b2013;
-    font-family: "New Rocker", cursive; }
-  .created p, .musicians p {
-    line-height: 1.5em; }
+
+.created h3, .musicians h3 {
+  letter-spacing: 1px;
+  font-size: 1.6em;
+  font-weight: 900;
+  color: #4b2013;
+  font-family: "New Rocker", cursive; }
+
+.created p, .musicians p {
+  line-height: 1.5em; }
 
 .history {
   width: 80%;
@@ -101,8 +101,9 @@ h2 {
     text-shadow: 1px 1px red;
     font-family: "New Rocker", cursive;
     margin-top: 0; }
-  .history p {
-    line-height: 1.5em; }
+
+.history p {
+  line-height: 1.5em; }
 
 footer {
   background: #2b2b2b;
@@ -111,20 +112,23 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center; }
-  footer .icons-footer a {
-    text-align: center; }
-    footer .icons-footer a i {
-      font-size: 1.5em;
-      border: 1px solid black;
-      border-radius: 8%;
-      padding: 0.2em;
-      margin: 0.2em 0.8em 0.2em 0.8em;
-      background: #895d3b;
-      color: black;
-      width: 1em; }
-  footer .author-site {
-    font-style: italic;
-    font-size: 1.1em; }
+
+footer .icons-footer a {
+  text-align: center; }
+
+footer .icons-footer a i {
+  font-size: 1.5em;
+  border: 1px solid black;
+  border-radius: 8%;
+  padding: 0.2em;
+  margin: 0.2em 0.8em 0.2em 0.8em;
+  background: #895d3b;
+  color: black;
+  width: 1em; }
+
+footer .author-site {
+  font-style: italic;
+  font-size: 1.1em; }
 
 @media only screen and (max-width: 960px) {
   body {
@@ -169,19 +173,22 @@ footer {
   .created-musicians {
     display: flex;
     flex-direction: column; }
-    .created-musicians img {
-      width: 336px;
-      height: 252px;
-      padding: 0;
-      margin: 0; }
+
+  .created-musicians img {
+    width: 336px;
+    height: 252px;
+    padding: 0;
+    margin: 0; }
 
   .created, .picture, .musicians, .history {
     width: 100%;
     text-align: center; }
-    .created h3, .picture h3, .musicians h3, .history h3 {
-      text-align: center; }
-    .created p, .picture p, .musicians p, .history p {
-      text-align: center; }
+
+  .created h3, .picture h3, .musicians h3, .history h3 {
+    text-align: center; }
+
+  .created p, .picture p, .musicians p, .history p {
+    text-align: center; }
 
   footer {
     height: 18rem;
@@ -247,19 +254,22 @@ footer {
   .created-musicians {
     display: flex;
     flex-direction: column; }
-    .created-musicians img {
-      width: 336px;
-      height: 252px;
-      padding: 0;
-      margin: 0; }
+
+  .created-musicians img {
+    width: 336px;
+    height: 252px;
+    padding: 0;
+    margin: 0; }
 
   .created, .picture, .musicians, .history {
     width: 100%;
     text-align: center; }
-    .created h3, .picture h3, .musicians h3, .history h3 {
-      text-align: center; }
-    .created p, .picture p, .musicians p, .history p {
-      text-align: center; }
+
+  .created h3, .picture h3, .musicians h3, .history h3 {
+    text-align: center; }
+
+  .created p, .picture p, .musicians p, .history p {
+    text-align: center; }
 
   footer {
     height: 18rem;
@@ -322,19 +332,22 @@ footer {
   .created-musicians {
     display: flex;
     flex-direction: column; }
-    .created-musicians img {
-      width: 336px;
-      height: 252px;
-      padding: 0;
-      margin: 0; }
+
+  .created-musicians img {
+    width: 336px;
+    height: 252px;
+    padding: 0;
+    margin: 0; }
 
   .created, .picture, .musicians, .history {
     width: 100%;
     text-align: center; }
-    .created h3, .picture h3, .musicians h3, .history h3 {
-      text-align: center; }
-    .created p, .picture p, .musicians p, .history p {
-      text-align: center; }
+
+  .created h3, .picture h3, .musicians h3, .history h3 {
+    text-align: center; }
+
+  .created p, .picture p, .musicians p, .history p {
+    text-align: center; }
 
   footer {
     height: 18rem;
@@ -394,19 +407,22 @@ footer {
   .created-musicians {
     display: flex;
     flex-direction: column; }
-    .created-musicians img {
-      width: 336px;
-      height: 252px;
-      padding: 0;
-      margin: 0; }
+
+  .created-musicians img {
+    width: 336px;
+    height: 252px;
+    padding: 0;
+    margin: 0; }
 
   .created, .picture, .musicians, .history {
     width: 100%;
     text-align: center; }
-    .created h3, .picture h3, .musicians h3, .history h3 {
-      text-align: center; }
-    .created p, .picture p, .musicians p, .history p {
-      text-align: center; }
+
+  .created h3, .picture h3, .musicians h3, .history h3 {
+    text-align: center; }
+
+  .created p, .picture p, .musicians p, .history p {
+    text-align: center; }
 
   footer {
     height: 18rem;
@@ -417,5 +433,6 @@ footer {
     height: 50.4px;
     position: relative;
     left: 0; } }
+/*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */
