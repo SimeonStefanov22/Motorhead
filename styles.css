@@ -135,7 +135,7 @@ footer .author-site {
     font-size: 1.3rem; }
 
   header, nav {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center; }
 
@@ -161,7 +161,7 @@ footer .author-site {
 
   nav ul li:first-of-type {
     position: relative;
-    left: 0.2em; }
+    left: 0em; }
 
   nav ul li:nth-child(2) {
     position: relative;
@@ -181,7 +181,7 @@ footer .author-site {
     margin: 0; }
 
   .created, .picture, .musicians, .history {
-    width: 100%;
+    width: auto;
     text-align: center; }
 
   .created h3, .picture h3, .musicians h3, .history h3 {
@@ -216,7 +216,7 @@ footer .author-site {
     font-size: 1.3rem; }
 
   header, nav {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center; }
 
@@ -259,10 +259,12 @@ footer .author-site {
     width: 336px;
     height: 252px;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    width: 302px;
+    height: 227px; }
 
   .created, .picture, .musicians, .history {
-    width: 100%;
+    width: auto;
     text-align: center; }
 
   .created h3, .picture h3, .musicians h3, .history h3 {
@@ -294,7 +296,7 @@ footer .author-site {
     font-size: 1.3rem; }
 
   header, nav {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center; }
 
@@ -340,7 +342,7 @@ footer .author-site {
     margin: 0; }
 
   .created, .picture, .musicians, .history {
-    width: 100%;
+    width: auto;
     text-align: center; }
 
   .created h3, .picture h3, .musicians h3, .history h3 {
@@ -369,7 +371,7 @@ footer .author-site {
     font-size: 1.3rem; }
 
   header, nav {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center; }
 
@@ -390,7 +392,7 @@ footer .author-site {
     flex-direction: column; }
 
   nav ul li {
-    margin: 0.5em 0 0.5em 0;
+    margin: 0.3em 0 0.3em 0;
     font-size: 0.5em; }
 
   nav ul li:first-of-type {
@@ -399,7 +401,7 @@ footer .author-site {
 
   nav ul li:nth-child(2) {
     position: relative;
-    left: 3em; }
+    left: 2.5em; }
 
   nav ul li a {
     width: 6rem; }
@@ -415,7 +417,7 @@ footer .author-site {
     margin: 0; }
 
   .created, .picture, .musicians, .history {
-    width: 100%;
+    width: auto;
     text-align: center; }
 
   .created h3, .picture h3, .musicians h3, .history h3 {
