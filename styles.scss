@@ -1,263 +1,441 @@
-@import url('https://fonts.googleapis.com/css?family=New+Rocker');
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
-$box-shadow-picture: 0 0 2rem 0 rgba(red, 1);
-$font-family-heading: 'New Rocker', cursive;
-
-body{
-
+@import url("https://fonts.googleapis.com/css?family=New+Rocker");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+body {
   margin: 0 0.5rem 0 0.5rem;
-
   font-family: 'Lato', sans-serif;
-  background: rgb(213, 206, 198);
+  background: #d5cec6;
 
-
-  header{
-    color: rgb(255, 255, 255);
-    color:red;
+  header {
+    color: white;
+    color: red;
     font-size: 2.5rem;
 
-    h1{
-
-      background: rgb(0, 0, 0);
+    h1 {
+      background: black;
       text-align: center;
-      font-family: $font-family-heading;
+      font-family: "New Rocker", cursive;
       padding: 1rem;
-      margin: 0;
-
-
-    }
-
-
+      margin: 0; }
   }
-
 }
 
 
 
-nav{
-  border: 2px solid rgb(0, 0, 0);
-  background: rgb(137, 93, 59);
+nav {
+  border: 2px solid black;
+  background: #895d3b;
 
-  ul{
+   ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
 
-    li{
-      list-style: none;
+     li {
+       list-style: none;
 
-      a{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        color: red;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        width: 10rem;
-        border: 0 solid rgb(255, 255, 255);
-        border-radius: 3%;
-        background: rgb(0, 0, 0);
-        padding: 0.5em;
-        font-size: 1.5em;
-        box-shadow: 0 0 2rem 0 rgba(grey, 0.6);
-      }
-
-
-
-    }
-  }
-
+       a {
+         text-decoration: none;
+         color: white;
+         color: red;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 10rem;
+         border: 0 solid white;
+         border-radius: 3%;
+         background: black;
+         padding: 0.5em;
+         font-size: 1.5em;
+         box-shadow: 0 0 2rem 0 rgba(128, 128, 128, 0.6); }
+     }
+   }
 
 }
-li:first-of-type{
+
+
+
+li:first-of-type {
   position: relative;
-  right: 2.5em;
-}
+  right: 2.5em; }
 
-
-li:nth-of-type(2){
+li:nth-of-type(2) {
   border: none;
   background: none;
   padding: 0;
-
   position: relative;
-  right: 2.5em;
-}
+  right: 2.1em; }
 
-nav img{
+nav img {
   width: 3.5rem;
-  border-radius: 50%;
-  border: 3px solid black;
+  border-radius: 50%; }
 
-  box-shadow: $box-shadow-picture;
-}
-
-.history-text{
-  display: flex;
-  justify-content: space-between;
-}
-
-h2{
+h2 {
   text-align: center;
   letter-spacing: 3px;
-  color: rgb(75, 32, 19);
-
+  color: #4b2013;
   font-size: 2.2em;
-  text-shadow: 1px 1px rgb(75, 32, 19);
+  text-shadow: 1px 1px #4b2013;
   text-shadow: 1px 1px red;
-  font-family: $font-family-heading;
+  font-family: "New Rocker", cursive; }
 
-
-}
-
-.history-text{
+.history-text {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: column;}
 
-}
-.created-musicians{
+.created-musicians {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-evenly; }
+.created-musicians img {
+  margin: 4em 4em 0 4em; }
 
-  img{
-    margin: 4em 4em 0 4em;
-
-
-  }
-
-}
-.created, .musicians{
+.created, .musicians {
   padding: 0.8em;
-  width: 30%;
+  width: 30%; }
 
+.created h3, .musicians h3 {
+  letter-spacing: 1px;
+  font-size: 1.6em;
+  font-weight: 900;
+  color: #4b2013;
+  font-family: "New Rocker", cursive; }
 
-  h3{
-    letter-spacing: 1px;
-    font-size: 1.6em;
-    font-weight: 900;
-    color: rgb(75, 32, 19);
-    text-shadow: 1px 1px red;
-    font-family: $font-family-heading;
+.created p, .musicians p {
+  line-height: 1.5em; }
 
-  }
-  p{
-    line-height: 1.5em;
-  }
-}
-.history{
-
+.history {
   width: 80%;
   margin: 0 auto 0.5em auto;
   text-align: center;
 
-  h3{
+  h3 {
     letter-spacing: 1px;
     font-size: 2em;
-    color: rgb(75, 32, 19);
+    color: #4b2013;
     text-shadow: 1px 1px red;
-    font-family: $font-family-heading;
-    margin-top: 0;
-
-
-  }
-  p{
-    line-height: 1.5em;
-
-  }
+    font-family: "New Rocker", cursive;
+    margin-top: 0; }
 }
 
+.history p {
+  line-height: 1.5em; }
 
-
-
-footer{
-  background: rgb(43, 43, 43);
+footer {
+  background: #2b2b2b;
   width: 100%;
   height: 7rem;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: center; }
 
-  .icons-footer a{
-    text-align: center;
+footer .icons-footer a {
+  text-align: center; }
 
+footer .icons-footer a i {
+  font-size: 1.5em;
+  border: 1px solid black;
+  border-radius: 8%;
+  padding: 0.2em;
+  margin: 0.2em 0.8em 0.2em 0.8em;
+  background: #895d3b;
+  color: black;
+  width: 1em; }
 
-     i{
-      font-size: 1.5em;
-      border: 1px solid rgb(0, 0, 0);
-      border-radius: 8%;
-      padding: 0.2em;
-      margin: 0.2em 0.8em 0.2em 0.8em;
-      background: rgb(137, 93, 59);
-      color: rgb(0, 0, 0);
+footer .author-site {
+  font-style: italic;
+  font-size: 1.1em; }
 
-      width: 1em;
-    }
-  }
+@media only screen and (max-width: 960px) {
+  body {
+    font-size: 1.3rem; }
 
-
-  .author-site{
-    font-style: italic;
-    font-size: 1.1em;
-  }
-
-
-}
-
-
-@media only screen and (max-width: 480px) {
-
-  body{
-    font-size: 1.3rem;
-
-  }
-
-  header, nav{
+  header, nav {
     width: 100%;
     display: flex;
-    justify-content: center;
-  }
+    justify-content: center; }
 
+  h1 {
+    font-size: 3rem;
+    width: 100%; }
 
-  h1{
-    font-size: 1.4rem;
-    width: 100%;
-  }
-  h2{
-    font-size: 1rem;
-  }
+  h2 {
+    font-size: 2rem; }
 
-  .history-text{
+  .history-text {
     display: flex;
-    flex-direction: column;
-  }
-  .created, .history, .musicians{
-    width: 100%;
-  }
-  nav ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column; }
+
+  nav ul {
     padding-left: 0;
-  }
-  nav ul li{
+    display: flex;
+    flex-direction: column; }
+
+  nav ul li {
     margin: 0.5em 0 0.5em 0;
-    font-size: 0.5em;
-  }
-  nav ul li:nth-child(2){
-    display: none;
+    font-size: 0.5em; }
 
-  }
-  nav ul li a{
-    width: 6rem;
-  }
+  nav ul li:first-of-type {
+    position: relative;
+    left: 0.2em; }
 
-}
+  nav ul li:nth-child(2) {
+    position: relative;
+    left: 3em; }
 
+  nav ul li a {
+    width: 6rem; }
 
+  .created-musicians {
+    display: flex;
+    flex-direction: column; }
+  .created-musicians img {
+    width: 336px;
+    height: 252px;
+    padding: 0;
+    margin: 0; }
 
+  .created, .picture, .musicians, .history {
+    width: 100%;
+    text-align: center; }
+  .created h3, .picture h3, .musicians h3, .history h3 {
+    text-align: center; }
+  .created p, .picture p, .musicians p, .history p {
+    text-align: center; }
 
+  footer {
+    height: 18rem;
+    font-size: 1em; }
 
+  nav ul li a {
+    width: 15em; }
 
+  nav ul li img {
+    width: 10em;
+    position: relative;
+    left: 4em; }
+
+  .picture img {
+    width: 480px;
+    height: 360px; }
+
+  footer {
+    height: 10em; }
+
+  footer .icons-footer a i {
+    margin: 0.5em 0.5em 0.5em 0.5em; } }
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 1.3rem; }
+
+  header, nav {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+
+  h1 {
+    font-size: 3rem;
+    width: 100%; }
+
+  h2 {
+    font-size: 2rem; }
+
+  .history-text {
+    display: flex;
+    flex-direction: column; }
+
+  nav ul {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column; }
+
+  nav ul li {
+    margin: 0.5em 0 0.5em 0;
+    font-size: 0.5em; }
+
+  nav ul li:first-of-type {
+    position: relative;
+    left: 0.2em; }
+
+  nav ul li:nth-child(2) {
+    position: relative;
+    left: 3em; }
+
+  nav ul li a {
+    width: 6rem; }
+
+  .created-musicians {
+    display: flex;
+    flex-direction: column; }
+  .created-musicians img {
+    width: 336px;
+    height: 252px;
+    padding: 0;
+    margin: 0; }
+
+  .created, .picture, .musicians, .history {
+    width: 100%;
+    text-align: center; }
+  .created h3, .picture h3, .musicians h3, .history h3 {
+    text-align: center; }
+  .created p, .picture p, .musicians p, .history p {
+    text-align: center; }
+
+  footer {
+    height: 18rem;
+    font-size: 1em; }
+
+  nav ul li a {
+    width: 15em; }
+
+  nav ul li img {
+    width: 10em;
+    position: relative;
+    left: 4em; }
+
+  .picture img {
+    width: 480px;
+    height: 360px; }
+
+  footer .icons-footer a i {
+    margin: 0.5em 1.5em 0.5em 1.5em; } }
+@media only screen and (max-width: 640px) {
+  body {
+    font-size: 1.3rem; }
+
+  header, nav {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+
+  h1 {
+    font-size: 3rem;
+    width: 100%; }
+
+  h2 {
+    font-size: 2rem; }
+
+  .history-text {
+    display: flex;
+    flex-direction: column; }
+
+  nav ul {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column; }
+
+  nav ul li {
+    margin: 0.5em 0 0.5em 0;
+    font-size: 0.5em; }
+
+  nav ul li:first-of-type {
+    position: relative;
+    left: 0.2em; }
+
+  nav ul li:nth-child(2) {
+    position: relative;
+    left: 3em; }
+
+  nav ul li a {
+    width: 6rem; }
+
+  .created-musicians {
+    display: flex;
+    flex-direction: column; }
+  .created-musicians img {
+    width: 336px;
+    height: 252px;
+    padding: 0;
+    margin: 0; }
+
+  .created, .picture, .musicians, .history {
+    width: 100%;
+    text-align: center; }
+  .created h3, .picture h3, .musicians h3, .history h3 {
+    text-align: center; }
+  .created p, .picture p, .musicians p, .history p {
+    text-align: center; }
+
+  footer {
+    height: 18rem;
+    font-size: 1em; }
+
+  nav ul li a {
+    width: 15em; }
+
+  nav ul li img {
+    width: 10em;
+    position: relative;
+    left: 4em; }
+
+  .picture img {
+    width: 480px;
+    height: 360px; } }
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 1.3rem; }
+
+  header, nav {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+
+  h1 {
+    font-size: 3rem;
+    width: 100%; }
+
+  h2 {
+    font-size: 2rem; }
+
+  .history-text {
+    display: flex;
+    flex-direction: column; }
+
+  nav ul {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column; }
+
+  nav ul li {
+    margin: 0.5em 0 0.5em 0;
+    font-size: 0.5em; }
+
+  nav ul li:first-of-type {
+    position: relative;
+    left: 0.2em; }
+
+  nav ul li:nth-child(2) {
+    position: relative;
+    left: 3em; }
+
+  nav ul li a {
+    width: 6rem; }
+
+  .created-musicians {
+    display: flex;
+    flex-direction: column; }
+  .created-musicians img {
+    width: 336px;
+    height: 252px;
+    padding: 0;
+    margin: 0; }
+
+  .created, .picture, .musicians, .history {
+    width: 100%;
+    text-align: center; }
+  .created h3, .picture h3, .musicians h3, .history h3 {
+    text-align: center; }
+  .created p, .picture p, .musicians p, .history p {
+    text-align: center; }
+
+  footer {
+    height: 18rem;
+    font-size: 1em; }
+
+  nav ul li img {
+    width: 67.2px;
+    height: 50.4px;
+    position: relative;
+    left: 0; } }
+
+/*# sourceMappingURL=styles.css.map */
